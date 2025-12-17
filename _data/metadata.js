@@ -1,11 +1,11 @@
 export default {
-  title: "Eleventy Base Blog v9",
-  url: "https://example.com/",
+  title: "jacklorusso.com",
+  url: "https://jacklorusso.com/",
   language: "en",
-  description: "I am writing about my experiences as a naval navel-gazer.",
+  description: "Jack Lo Russo is a high school teacher from Sydney, Australia.",
   author: {
-    name: "Your Name Here",
-    email: "youremailaddress@example.com",
-    url: "https://example.com/about-me/",
+    name: "Jack Lo Russo",
+    email: "jack.lorusso@gmail.com",
+    url: "https://jacklorusso.com/about-me/",
   },
 };
