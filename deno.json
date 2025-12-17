@@ -1,0 +1,23 @@
+{
+  "description": "A starter repository for a blog web site using the Eleventy site generator and the Deno runtime.",
+  "imports": {
+    "@11ty/eleventy": "npm:@11ty/eleventy@^3.1.2",
+    "@11ty/eleventy-img": "npm:@11ty/eleventy-img@^6.0.4",
+    "@11ty/eleventy-navigation": "npm:@11ty/eleventy-navigation@^1.0.4",
+    "@11ty/eleventy-plugin-rss": "npm:@11ty/eleventy-plugin-rss@^2.0.4",
+    "@11ty/eleventy-plugin-syntaxhighlight": "npm:@11ty/eleventy-plugin-syntaxhighlight@^5.0.2",
+    "@zachleat/heading-anchors": "npm:@zachleat/heading-anchors@^1.0.5",
+    "luxon": "npm:luxon@^3.6.1",
+    "prismjs": "npm:prismjs@^1.30.0",
+    "zod": "npm:zod@^3.25.67",
+    "zod-validation-error": "npm:zod-validation-error@^3.5.2"
+  },
+  "tasks": {
+    "build": "deno run -A npm:@11ty/eleventy",
+    "build-nocolor": "NODE_DISABLE_COLORS=1 deno run -A npm:@11ty/eleventy",
+    "start": "deno run -A npm:@11ty/eleventy --serve --quiet",
+    "debug": "DEBUG=Eleventy* deno run -A npm:@11ty/eleventy",
+    "debugstart": "DEBUG=Eleventy* deno run -A npm:@11ty/eleventy --serve --quiet",
+    "benchmark": "DEBUG=Eleventy:Benchmark* deno run -A npm:@11ty/eleventy"
+  }
+}
